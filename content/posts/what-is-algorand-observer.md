@@ -28,7 +28,7 @@ We will be working on HumbleSwap and AlgoDex processors shortly after our Alpha 
 
 ## What kind of Liquidation events will you support? 
 
-Currently we have a processor for AlgoFi that we used to write up [this report](d13.co/algofi-liquidations-stats-data/).
+Currently we have a processor for AlgoFi that we used to write up [this report](https://d13.co/algofi-liquidations-stats-data/).
 
 We will be supporting Folks Finance liquidations after the Alpha release, and xBacked liquidations shortly after that.
 
