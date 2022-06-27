@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blog.algorand.observer/'
 languageCode = 'en-us'
 title = 'Algorand Observer'
 theme = 'PaperMod'
@@ -115,7 +115,7 @@ weight = 10
 [[menu.main]]
 identifier = "d13"
 name = "By the D13.co//ective"
-url = "https://example.org"
+url = "https://D13.co//ective"
 weight = 30
 
 [markup.highlight]
