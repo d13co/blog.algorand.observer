@@ -3,11 +3,11 @@ title: "What is Algorand Observer?"
 date: 2022-06-25T02:18:38+03:00
 draft: true
 ---
-## TL;DR: Real-time blockchain event streaming
+## TL;DR: Real-time blockchain event streaming.
 
-We are building a set of services around specific blockchain events from the Algorand MainNet network.
+We are building a set of services around parsing and reacting to specific blockchain events on the Algorand MainNet network.
 
-The public frontend to this will be the present site, where you will be able to see this data, as well as aggregates & statistics, in real-time.
+The public frontend to this will be Algorand.Observer, where users will be able to see this data, as well as aggregates & statistics, in real-time.
 
 ## What kind of on-chain events?
 
@@ -17,8 +17,6 @@ We are focusing on the following three types of transactions to begin with:
 - Liquidations
 - ASA/NFT mints
 
-Aside from these: anything that could be of interest. We will listen to our audience and customers and deliver anything that we can parse.
-
 ## What kind of DEX swaps will you support?
 
 In short: most of them.
@@ -27,11 +25,11 @@ Our backend is much further ahead than our frontend. We have "processors" that p
 
 We are currently focusing on the top 30-50 most popular pools on each DEX, so not all pools will be shown in the first incarnation of our frontend.
 
-We will be working on HumbleSwap and AlgoDex processors shortly after our Alpha version is released.
+We will be working on HumbleSwap and AlgoDex processors shortly after our Alpha version is released. HDX support is also on our roadmap.
 
 ## What kind of Liquidation events will you support? 
 
-Currently we have a processor for AlgoFi that we used to write up [this report](d13.co/algofi-liquidations-stats-data/). It also seems to work reliably.
+Currently we have a processor for AlgoFi that we used to write up [this report](d13.co/algofi-liquidations-stats-data/).
 
 We will be supporting Folks Finance liquidations after the Alpha release, and xBacked liquidations shortly after that.
 
@@ -50,9 +48,15 @@ We are doing this for two reasons:
 
 As the Algorand NFT space grows, fraudulent NFT mints that infringe on creator copyright and defraud users by selling them infringing NFTs will likely become more prevalent. If there is demand for this, we intend to build a discord integration that provides a bot on customer servers and notifies when an infringing NFT has been minted, so that their community can take action as soon as the infringing NFT has hit the chain.
 
+## What timeframes will you support?
+
+We aim to provide data from block 17,700,000 (Sun, 28 Nov 2021 10:23:12 GMT) until "now".
+
+If there is need for earlier data, we will be able to accomodate.
+
 ## How is this going to be profitable?
 
-Building this system with _very_ high availability is our number one priority. We hope to prove our competence in building an extremely reliable blockchain event responding service, and subsequently offer our data and services to creators and developers. 
+We hope to prove our competence in building an extremely reliable blockchain event responding service, and subsequently offer our data and services to creators and developers.
 
 Further to the above example of fraudulent NFT detection, we believe we can reliably offer the following:
 
@@ -60,20 +64,24 @@ Further to the above example of fraudulent NFT detection, we believe we can reli
   - real-time
   - historical
   - time aggregates (daily/weekly/monthly)
-  - platform-wide aggregates (across all supported DEX)
+  - platform-specific or chain-wide
 - DEX liquidity events
-- Artibrage opportunities
+- Arbitrage opportunities
 - Liquidation Events
 - Liquidation Opportunities
 
 We want to build delivery channels that work for our customers, so any of the following are possible:
 
 - HTTP APIs
-- [Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) (our favorite)
+- [Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) (our favorite streaming option)
 - Websocket APIs
 - Webhooks
-- [Push notification services](https://pushbullet.com/)
+- Push notification services like [Pushbullet](https://pushbullet.com/)
+- Email
+- Twitter bots
 - Discord bots
+
+Building this system with _very_ high availability is our number one priority. We will be using Algorand Observer data to build both internal tools and consumer products.
 
 ## Is this an official Algorand inc or Algorand Foundation project?
 
@@ -83,7 +91,9 @@ No.
 
 The same people who are developing it - the [D13.co//ective](https://d13.co//ective).
 
-We are not currently looking for funding, and will not be asking for money until we have something of value to offer in return.
+We are not currently looking for funding.
+
+We will not be asking for money until we have something of value to offer in return.
 
 ## Where can I be updated about your progress?
 
