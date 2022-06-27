@@ -1,7 +1,6 @@
 ---
 title: "What is Algorand Observer?"
 date: 2022-06-25T02:18:38+03:00
-draft: true
 ---
 ## TL;DR: Real-time blockchain event streaming.
 
