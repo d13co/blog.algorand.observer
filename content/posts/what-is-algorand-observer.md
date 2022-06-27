@@ -97,4 +97,4 @@ We will not be asking for money until we have something of value to offer in ret
 
 ## Where can I be updated about your progress?
 
-You can follow us on twitter: [@Algo_Observer](https://twitter.com/algo_observer/) and [@d13_co](https://twitter.com/d13_co/).
+You can follow us on twitter: [@Algo_Observer](https://twitter.com/algo_observer/) and [@D13_co](https://twitter.com/d13_co/).

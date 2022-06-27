@@ -16,10 +16,10 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
-author = "Me"
+title = "Algorand.Observer"
+description = "Real-time Algorand blockchain event streaming"
+keywords = [ "Algorand", "Observer", "DEX", "NFT", "Swaps" ]
+author = "D13.co//ective"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
@@ -50,7 +50,7 @@ tocopen = false
   [params.label]
   text = " "
   icon = "/images/logo4-white-48.png"
-  iconHeight = 35
+  iconHeight = 48
 
   [params.profileMode]
   enabled = true
