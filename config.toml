@@ -7,7 +7,6 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
 pygmentsUseClasses = true
 
 [minify]
@@ -78,14 +77,14 @@ tocopen = false
   url = "https://twitter.com/Algo_Observer/"
 
 
-[params.analytics.google]
-SiteVerificationTag = "XYZabc"
-
-[params.analytics.bing]
-SiteVerificationTag = "XYZabc"
-
-[params.analytics.yandex]
-SiteVerificationTag = "XYZabc"
+# [params.analytics.google]
+# SiteVerificationTag = "XYZabc"
+# 
+# [params.analytics.bing]
+# SiteVerificationTag = "XYZabc"
+# 
+# [params.analytics.yandex]
+# SiteVerificationTag = "XYZabc"
 
   [params.cover]
   hidden = true
