@@ -20,7 +20,7 @@
       <description>TL;DR: Real-time blockchain event streaming. We are building a set of services around parsing and reacting to specific blockchain events on the Algorand MainNet network.
 The public frontend to this will be Algorand.Observer, where users will be able to see this data, as well as aggregates &amp;amp; statistics, in real-time.
 What kind of on-chain events? We are focusing on the following three types of transactions to begin with:
- DEX swaps Liquidations ASA/NFT mints  What kind of DEX swaps will you support?</description>
+DEX swaps Liquidations ASA/NFT mints What kind of DEX swaps will you support?</description>
     </item>
     
   </channel>
