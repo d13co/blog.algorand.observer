@@ -64,10 +64,6 @@ tocopen = false
     name = "What it is"
     url = "posts/what-is-algorand-observer"
 
-    [[params.profileMode.buttons]]
-    name = "Vote on our roadmap"
-    url = "https://twitter.com/Algo_Observer/status/1540376059828326400"
-
   [params.homeInfoParams]
   Title = "Hi there 👋"
   Content = "Welcome to my blog"
