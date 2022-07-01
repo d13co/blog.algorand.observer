@@ -54,14 +54,14 @@ tocopen = false
   [params.profileMode]
   enabled = true
   title = "Algorand Observer"
-  subtitle = "Real-time blockchain event streaming services"
+  subtitle = "Coming soon: Real-time blockchain event streaming services"
   imageUrl = "images/logo4-white-160.png"
   imageWidth = 160
   imageHeight = 160
   imageTitle = "Algorand Observer logo"
 
     [[params.profileMode.buttons]]
-    name = "What it is"
+    name = "Product Description"
     url = "posts/what-is-algorand-observer"
 
   [params.homeInfoParams]
@@ -100,12 +100,6 @@ tocopen = false
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
-
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
-weight = 10
 
 [[menu.main]]
 identifier = "d13"
