@@ -64,6 +64,10 @@ tocopen = false
     name = "Product Description"
     url = "posts/what-is-algorand-observer"
 
+    [[params.profileMode.buttons]]
+    name = "Governance P4 Realtime Voting Analytics"
+    url = "https://voting.algorand.observer/"
+
   [params.homeInfoParams]
   Title = "Hi there 👋"
   Content = "Welcome to my blog"
