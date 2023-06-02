@@ -54,19 +54,19 @@ tocopen = false
   [params.profileMode]
   enabled = true
   title = "Algorand Observer"
-  subtitle = "Coming soon: Real-time blockchain event streaming services"
+  subtitle = ""
   imageUrl = "images/logo4-white-160.png"
   imageWidth = 160
   imageHeight = 160
   imageTitle = "Algorand Observer logo"
 
     [[params.profileMode.buttons]]
-    name = "Product Description"
-    url = "posts/what-is-algorand-observer"
+    name = "Governance Realtime Voting Analytics"
+    url = "https://voting.algorand.observer/"
 
     [[params.profileMode.buttons]]
-    name = "Governance P4 Realtime Voting Analytics"
-    url = "https://voting.algorand.observer/"
+    name = "By D13.co"
+    url = "https://twitter.com/d13_co"
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
@@ -107,7 +107,7 @@ tocopen = false
 
 [[menu.main]]
 identifier = "d13"
-name = "By the D13.co//ective"
+name = "By D13.co"
 url = "https://D13.co//ective"
 weight = 30
 
